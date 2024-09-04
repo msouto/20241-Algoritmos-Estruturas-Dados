@@ -14,3 +14,8 @@ class TestFuncaoLinear(unittest.TestCase):
         resultado = eq_linear.funcao_linear(-2)
         self.assertEqual(resultado, -4)
 
+    def test_valor_zero(self):
+        #Teste para x igual a 0
+        resultado = eq_linear.funcao_linear(0)
+        self.assertEqual(resultado, 0)
+
