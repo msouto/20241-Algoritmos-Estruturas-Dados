@@ -1,6 +1,6 @@
 import unittest
 import eq_linear
-
+#para rodar o teste, execute: python -m unittest test_nome_arquivo.py
 class TestFuncaoLinear(unittest.TestCase):
     def test_valor_postivo(self):
         #Teste para um valor positivo
