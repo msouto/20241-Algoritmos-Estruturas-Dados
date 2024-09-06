@@ -5,7 +5,16 @@
 #fatorial desse número. O fatorial de n é o produto de todos os números inteiros de 1 até
 #n.
 def fatorial(n):
-  pass
+  if n == 0 or n ==1:
+    return 1
+  resultado = 1
+  for i in range(2, n+1):
+    resultado *= i
+  return resultado
+
+print(fatorial(0))
+print(fatorial(1))
+  #pass
 
 #Questão 2 - Vetor: Soma de Elementos Pares
 #Descrição: Crie uma função soma_pares(vetor) que receba um vetor de inteiros e
