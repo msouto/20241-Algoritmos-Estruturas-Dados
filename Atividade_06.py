@@ -5,8 +5,15 @@
 #fatorial desse número. O fatorial de n é o produto de todos os números inteiros de 1 até
 #n.
 
-#Questão 2
+#Questão 2 - Vetor: Soma de Elementos Pares
+#Descrição: Crie uma função soma_pares(vetor) que receba um vetor de inteiros e
+#retorne a soma de todos os elementos pares do vetor.
 
-#Questão 3
+#Questão 3 - Input/Output: Conversor de Temperatura
+#Descrição: Crie uma função conversor_temperatura() que leia uma temperatura em
+#graus Celsius fornecida pelo usuário, converta para Fahrenheit e imprima o resultado. A
+#fórmula de conversão é: F = C * 9/5 + 32.
 
-#Questão 4
+#Questão 4 - Matriz Bidimensional: Soma de Matrizes
+#Descrição: Crie uma função soma_matrizes(m1, m2) que receba duas matrizes 2x2 e
+#retorne uma nova matriz, que seja a soma das duas matrizes recebidas.
